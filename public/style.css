@@ -1,0 +1,47 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    background-image: linear-gradient(to bottom right, lightblue, blue);
+    text-align: center;
+} 
+
+.nav-bar {
+    display: flex;
+    padding-left: 3px;
+}
+
+.nav-text {
+    font-size: 20px;
+    padding-top: 17px;
+    padding-left: 10px;
+}
+
+img {
+    width: 80px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+p {
+    margin: 0;
+}
+
+div.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+}
+
+button.srch-btn {
+    height: 60px;
+    background-color: white;
+}
+
