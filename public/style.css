@@ -23,10 +23,14 @@ body {
     padding-left: 10px;
 }
 
-img {
+img.nav {
     width: 80px;
     height: 90px;
     border-radius: 50%;
+}
+
+img.landingImage {
+    margin-top: 10px;
 }
 
 p {
@@ -37,7 +41,7 @@ div.btn-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 350px;
+    height: 200px;
 }
 
 button.srch-btn {
